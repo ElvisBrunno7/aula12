@@ -39,5 +39,5 @@ transition: backgroud-color 0.3s;
 }
 
 .switch-tema input:checked::before{
-    transform: ;
+    transform: translate(20px) ;
 }
