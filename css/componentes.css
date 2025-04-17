@@ -1,0 +1,38 @@
+form {
+display:flex;
+flex-direction: column;
+gap: 1.25rem;
+
+}
+.campo {
+    position: relative;
+}
+
+
+.campo i{
+position: absolute;
+left: 1rem;
+top: 50%;
+transform: translate(-50%);
+color: var(--cor-placeholder);
+font-size: 1.25rem;
+
+}
+
+
+.campo input{
+width: 100%;
+padding: 0.75rem 1rem 0.75rem 2.5rem;
+border-radius: var(--borda-arrendondada);
+background-color: transparent;
+color: var(--cor-texto);
+outline: none;
+transition: border-color 02.s ease;
+
+}
+.campo input:focus{
+
+border-color:var(--cor-placeholder);
+
+
+}
