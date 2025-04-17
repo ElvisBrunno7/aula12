@@ -15,3 +15,13 @@
     color: var(--cor-subtexto);
     font-size: 0.9rem;
 }
+.switch-tema input{
+width: 40px;
+height: 20px;
+-webkit-appearance: none;
+appearance: none;
+border-radius: 999px;
+position: relative;
+cursor: pointer;
+transition: backgroud-color 0.3s;
+}
